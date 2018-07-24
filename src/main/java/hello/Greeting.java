@@ -2,7 +2,7 @@ package hello;
 
 public class Greeting {
     public final long id;
-    private final String content;
+    public final String content;
 
     public Greeting(long id, String content){
         this.id = id;

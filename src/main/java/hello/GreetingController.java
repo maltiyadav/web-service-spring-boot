@@ -16,8 +16,8 @@ public class GreetingController{
     }
 
     @RequestMapping("/")
-    public Index greeting1(@RequestParam(value = "name", defaultValue = "World") String name){
-        return new Index(String.format(template, name));
+    public Index index(){
+        return new Index("API started>>>>>>>>>>>");
     }
 
 }
